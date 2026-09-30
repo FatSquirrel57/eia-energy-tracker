@@ -19,4 +19,4 @@ jobs:
       - name: Run EIA tracker
         env:
           EIA_API_KEY: ${{ secrets.EIA_API_KEY }}
-        run: python tracker.py
+        run: python explore.py
